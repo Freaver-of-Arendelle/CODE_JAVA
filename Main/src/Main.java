@@ -8,7 +8,7 @@ public class Main {
         List<Family> families = new ArrayList<Family>();
         List<Person> members = new ArrayList<Person>();
         List<Person> members2 = new ArrayList<Person>();
-        // List<Person> members2 = new ArrayList<Person>();
+        //        List<Person> members2 = new ArrayList<Person>();
         int id;
         String name;
         String gender;
@@ -57,7 +57,6 @@ public class Main {
     }
 
 }
-
 class Person {
     private int id;
     private String name;

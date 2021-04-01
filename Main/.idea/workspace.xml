@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29b1426c-ed34-4b3e-abc0-8ef0d20d6597" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Coffee/Coffee.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coffee/out/production/Coffee/Coffee.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/src/main/java/cList/CoffeeAccessoryList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/src/main/java/cList/CoffeeBrewerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/src/main/java/cList/CoffeeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/src/main/java/cList/ProductList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/src/main/java/mod/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/src/main/java/mod/CoffeeAccessory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/src/main/java/mod/CoffeeBrewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/src/main/java/mod/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/src/main/java/ser/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/src/main/java/ser/Sales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/src/main/java/ser/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/src/main/java/ui/Usr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/target/classes/cList/CoffeeAccessoryList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/target/classes/cList/CoffeeBrewerList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/target/classes/cList/CoffeeList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/target/classes/cList/ProductList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/target/classes/mod/Coffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/target/classes/mod/CoffeeAccessory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/target/classes/mod/CoffeeBrewer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/target/classes/mod/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/target/classes/ser/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/target/classes/ser/Sales.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/target/classes/ser/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Maven/target/classes/ui/Usr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Main/Family.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Main/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coffee/out/production/Coffee/cList/CoffeeAccessoryList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Coffee/out/production/Coffee/cList/CoffeeAccessoryList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coffee/src/cList/CoffeeAccessoryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Coffee/src/cList/CoffeeAccessoryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Tools\Maven\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="D:\Tools\Maven\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Tools\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1q74QrMxIFBMsf0xBeWRV5ivw2e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CODE\CODE_JAVA\Main\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29b1426c-ed34-4b3e-abc0-8ef0d20d6597" name="Default Changelist" comment="" />
+      <created>1616417281106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616417281106</updated>
+      <workItem from="1616417282998" duration="4742000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

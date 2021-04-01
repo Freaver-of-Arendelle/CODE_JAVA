@@ -86,8 +86,8 @@ public class CoffeeBrewerList extends CoffeeAccessoryList{
     @Override
     public String toString() {
         return "CoffeeBrewerList{" +
-                "coffeeBrewerList=" + coffeeBrewerList +
-                '}';
+            "coffeeBrewerList=" + coffeeBrewerList +
+            '}';
     }
 
     @Override

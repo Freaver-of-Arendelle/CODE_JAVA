@@ -6,23 +6,93 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch test",
+            "name": "Launch RunoobTest",
             "request": "launch",
-            "mainClass": "test",
-            "projectName": "JAVA_2812aab"
+            "mainClass": "RunoobTest",
+            "projectName": "CODE_JAVA_29e7c64b"
         },
         {
             "type": "java",
-            "name": "Launch Main",
+            "name": "Launch InnerClassTest",
             "request": "launch",
-            "mainClass": "Main",
-            "projectName": "JAVA_2812aab"
+            "mainClass": "InnerClassTest",
+            "projectName": "CODE_JAVA_29e7c64b"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnonymousInnerClassTest",
+            "request": "launch",
+            "mainClass": "AnonymousInnerClassTest",
+            "projectName": "CODE_JAVA_29e7c64b"
+        },
+        {
+            "type": "java",
+            "name": "Launch iNnerClassTest",
+            "request": "launch",
+            "mainClass": "iNnerClassTest",
+            "projectName": "CODE_JAVA_29e7c64b"
+        },
+        {
+            "type": "java",
+            "name": "Launch lambda",
+            "request": "launch",
+            "mainClass": "lambda",
+            "projectName": "CODE_JAVA_29e7c64b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sup",
+            "request": "launch",
+            "mainClass": "Sup",
+            "projectName": "CODE_JAVA_29e7c64b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Life",
+            "request": "launch",
+            "mainClass": "Life",
+            "projectName": "CODE_JAVA_29e7c64b"
         },
         {
             "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Usr",
+            "request": "launch",
+            "mainClass": "Coffee.src.ui.Usr",
+            "projectName": "CODE_JAVA_29e7c64b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "CODE_JAVA_29e7c64b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main0",
+            "request": "launch",
+            "mainClass": "Main0",
+            "projectName": "CODE_JAVA_29e7c64b"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "CODE_JAVA_29e7c64b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Usr(1)",
+            "request": "launch",
+            "mainClass": "ui.Usr",
+            "projectName": "Coffee-Maven"
         }
     ]
 }

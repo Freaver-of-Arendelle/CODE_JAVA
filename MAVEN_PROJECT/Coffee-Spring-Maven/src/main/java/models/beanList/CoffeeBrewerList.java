@@ -1,6 +1,6 @@
-package cList;
+package models.beanList;
 
-import mod.CoffeeBrewer;
+import models.bean.CoffeeBrewer;
 
 import java.util.ArrayList;
 import java.util.List;
