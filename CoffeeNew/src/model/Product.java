@@ -8,6 +8,10 @@ public interface Product {
     int getNumber();
     void addNumber();
     void removeNumber();
+    String getCode();
+    String getDescription();
+    float getPrice();
+
 
 
 

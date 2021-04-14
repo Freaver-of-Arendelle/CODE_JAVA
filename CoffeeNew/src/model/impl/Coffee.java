@@ -77,7 +77,7 @@ public class Coffee extends CoffeeAccessory {
     }
 
     public String allToString() {
-        return "coffee{" +
+        return "Coffee{" +
                 super.toString() +
                 "originCountry='" + originCountry + '\'' +
                 ", roast='" + roast + '\'' +
