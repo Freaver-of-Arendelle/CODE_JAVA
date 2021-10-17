@@ -1,4 +1,4 @@
-package view;
+package ui;
 
 import controller.CoffeeSales;
 import controller.impl.CoffeeSalesImpl;
@@ -48,6 +48,6 @@ public class Usr
                 default -> System.out.println("You are exited");
             }
         }
-        while (choose != 9);
+        while (choose != 8);
     }
 }

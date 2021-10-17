@@ -2,12 +2,10 @@ package mod.impl;
 
 import mod.Product;
 
-import java.io.Serializable;
-
 /**
  * @author Freaver
  */
-public class CoffeeAccessory implements Product, Serializable {
+public class CoffeeAccessory implements Product {
     protected String code;
     protected String description;
     protected float price;
@@ -25,7 +23,7 @@ public class CoffeeAccessory implements Product, Serializable {
     {
         this.number = 0;
     }
-    @Override public String getCode() {
+    public String getCode() {
         return code;
     }
 
@@ -33,7 +31,7 @@ public class CoffeeAccessory implements Product, Serializable {
         this.code = code;
     }
 
-    @Override public String getDescription() {
+    public String getDescription() {
         return description;
     }
 
@@ -41,7 +39,7 @@ public class CoffeeAccessory implements Product, Serializable {
         this.description = description;
     }
 
-    @Override public float getPrice() {
+    public float getPrice() {
         return price;
     }
 
