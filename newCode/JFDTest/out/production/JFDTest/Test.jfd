@@ -1,0 +1,124 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundleName": "test"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"name": "frame2"
+			"title": "label test"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane2"
+					add( new FormComponent( "javax.swing.JTextArea" ) {
+						name: "textArea1"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "South"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+					"columns": 1
+				} ) {
+					name: "panel6"
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+						name: "panel4"
+					} )
+					add( new FormContainer( "javax.swing.JSplitPane", new FormLayoutManager( class javax.swing.JSplitPane ) ) {
+						name: "splitPane1"
+						"dividerLocation": 600
+						"lastDividerLocation": 100
+						"continuousLayout": true
+						"oneTouchExpandable": true
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+							"columns": 1
+							"rows": 3
+						} ) {
+							name: "panel1"
+							add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+								name: "scrollPane1"
+								add( new FormComponent( "javax.swing.JList" ) {
+									name: "list1"
+								} )
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+								"columns": 1
+								"rows": 2
+							} ) {
+								name: "panel2"
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "label2"
+									"text": new FormMessage( null, "label2.text" )
+								} )
+								add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+									"columns": 3
+								} ) {
+									name: "panel8"
+									add( new FormComponent( "javax.swing.JRadioButton" ) {
+										name: "radioButton7"
+										"text": new FormMessage( null, "radioButton7.text" )
+									} )
+									add( new FormComponent( "javax.swing.JRadioButton" ) {
+										name: "radioButton9"
+										"text": new FormMessage( null, "radioButton9.text" )
+									} )
+									add( new FormComponent( "javax.swing.JRadioButton" ) {
+										name: "radioButton8"
+										"text": new FormMessage( null, "radioButton8.text" )
+									} )
+								} )
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+								"columns": 1
+								"rows": 2
+							} ) {
+								name: "panel5"
+								add( new FormComponent( "javax.swing.JLabel" ) {
+									name: "label1"
+									"text": new FormMessage( null, "label1.text" )
+								} )
+								add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+									name: "panel7"
+									add( new FormComponent( "javax.swing.JRadioButton" ) {
+										name: "radioButton5"
+										"text": new FormMessage( null, "radioButton5.text" )
+									} )
+									add( new FormComponent( "javax.swing.JRadioButton" ) {
+										name: "radioButton4"
+										"text": new FormMessage( null, "radioButton4.text" )
+									} )
+									add( new FormComponent( "javax.swing.JRadioButton" ) {
+										name: "radioButton6"
+										"text": new FormMessage( null, "radioButton6.text" )
+									} )
+								} )
+							} )
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "left"
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+							name: "panel3"
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "right"
+						} )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 0 )
+			"size": new java.awt.Dimension( 1380, 840 )
+		} )
+		add( new FormNonVisual( "javax.swing.ButtonGroup" ) {
+			name: "buttonGroup1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 856 )
+		} )
+	}
+}

@@ -1,0 +1,41 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundleName": "list"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.GridLayout ) ) {
+			name: "frame1"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "radioButton2"
+					"text": new FormMessage( null, "radioButton2.text" )
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "radioButton1"
+					"text": new FormMessage( null, "radioButton1.text" )
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "radioButton3"
+					"text": new FormMessage( null, "radioButton3.text" )
+					"$buttonGroup": new FormReference( "buttonGroup1" )
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "radioButton4"
+					"text": new FormMessage( null, "radioButton4.text" )
+					"$buttonGroup": new FormReference( "buttonGroup1" )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 15, 0 )
+			"size": new java.awt.Dimension( 365, 310 )
+		} )
+		add( new FormNonVisual( "javax.swing.ButtonGroup" ) {
+			name: "buttonGroup1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 326 )
+		} )
+	}
+}

@@ -1,0 +1,79 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundleName": "login"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"resizable": false
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {space :p:89:p, par t {comp label2:::p:57:p, comp label3:::p:57:p}, space u:::p, par l {comp userField:::p:210:p, comp passwordField:::p:210:p}, space ::25:x, par l {comp userLabel::t:p:115:p, comp passwordLabel::t:p:115:p}, space :::p}}"
+					"$verticalGroup": "par l {seq l {space :p:117:p, par l {par b {comp userField::b:p::p, comp label2::b:p:24:p}, comp userLabel:::p:24:p}, space :p:28:p, par t {par b {comp passwordField::b:p::p, comp label3::b:p:25:p}, comp passwordLabel:::p:26:p}, space ::32:x}}"
+				} ) {
+					name: "contentPanel"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": new FormMessage( null, "label2.text_2" )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": new FormMessage( null, "label3.text_2" )
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "userField"
+						addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "userFieldFocusLost", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JPasswordField" ) {
+						name: "passwordField"
+						addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "passwordFieldFocusLost", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "userLabel"
+						"foreground": sfield java.awt.Color red
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "passwordLabel"
+						"foreground": sfield java.awt.Color red
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "North"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :p:76:p, comp saveButton:::p:130:p, space ::100:x, comp cancelButton:::p:130:p, space :p:78:p}}"
+					"$verticalGroup": "par l {seq {space :::p, par b {comp cancelButton::b:p::p, comp saveButton::b:p::p}, space :::x}}"
+				} ) {
+					name: "buttonBar"
+					"border": new javax.swing.border.EmptyBorder( 12, 0, 0, 0 )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "saveButton"
+						"text": new FormMessage( null, "saveButton.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "saveButtonActionPerformed", true ) )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "saveButtonActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "cancelButton"
+						"text": new FormMessage( null, "cancelButton.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "cancelButtonActionPerformed", true ) )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "South"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 540, 395 )
+		} )
+		add( new FormNonVisual( "javax.swing.ButtonGroup" ) {
+			name: "buttonGroup1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 10, 421 )
+		} )
+	}
+}

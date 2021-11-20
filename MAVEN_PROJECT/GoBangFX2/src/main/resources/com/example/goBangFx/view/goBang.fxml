@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="686.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.goBangFx.view.controller.GoBangController">
+    <children>
+        <Pane fx:id="root" layoutX="89.0" layoutY="31.0" prefHeight="633.0" prefWidth="600.0">
+            <children>
+                <Canvas fx:id="draw" height="640.0" layoutX="-20.0" layoutY="-20.0" onMouseClicked="#handleCanvasClicked" width="640.0" />
+                <Line endX="600.0" endY="40.0" startY="40.0" />
+                <Line endX="600.0" endY="80.0" startY="80.0" />
+                <Line endX="600.0" endY="120.0" startY="120.0" />
+                <Line endX="600.0" endY="160.0" startY="160.0" />
+                <Line endX="600.0" endY="200.0" startY="200.0" />
+                <Line endX="600.0" endY="240.0" startY="240.0" />
+                <Line endX="600.0" endY="280.0" startY="280.0" />
+                <Line endX="600.0" endY="320.0" startY="320.0" />
+                <Line endX="600.0" endY="360.0" startY="360.0" />
+                <Line endX="600.0" endY="400.0" startY="400.0" />
+                <Line endX="600.0" endY="440.0" startY="440.0" />
+                <Line endX="600.0" endY="480.0" startY="480.0" />
+                <Line endX="600.0" endY="520.0" startY="520.0" />
+                <Line endX="600.0" endY="560.0" startY="560.0" />
+
+                <Line endX="80.0" endY="600.0" startX="80.0" />
+                <Line endX="120.0" endY="600.0" startX="120.0" />
+                <Line endX="160.0" endY="600.0" startX="160.0" />
+                <Line endX="200.0" endY="600.0" startX="200.0" />
+                <Line endX="240.0" endY="600.0" startX="240.0" />
+                <Line endX="280.0" endY="600.0" startX="280.0" />
+                <Line endX="320.0" endY="600.0" startX="320.0" />
+                <Line endX="360.0" endY="600.0" startX="360.0" />
+                <Line endX="400.0" endY="600.0" startX="400.0" />
+                <Line endX="440.0" endY="600.0" startX="440.0" />
+                <Line endX="480.0" endY="600.0" startX="480.0" />
+                <Line endX="520.0" endY="600.0" startX="520.0" />
+                <Line endX="560.0" endY="600.0" startX="560.0" />
+                <Line endX="600.0" endY="600.0" startX="600.0" />
+            <Line endX="600.0" />
+            <Line endX="40.0" endY="600.0" startX="40.0" />
+            <Line endY="600.0" />
+            <Button fx:id="giveUpBtn" layoutX="120.0" layoutY="614.0" mnemonicParsing="false" onAction="#giveUpAction" text="认输" />
+            <Button fx:id="pullBackBtn" layoutX="400.0" layoutY="614.0" mnemonicParsing="false" onAction="#pullBackAction" text="悔棋" />
+            <Line endX="600.0" endY="600.0" startY="600.0" />
+
+            </children>
+        </Pane>
+          <Label layoutX="709.0" layoutY="103.0" prefHeight="100.0" prefWidth="100.0" text="获胜方:">
+              <font>
+                  <Font name="Consolas Bold" size="28.0" />
+              </font>
+          </Label>
+      <Button fx:id="saveBtn" layoutX="717.0" layoutY="268.0" mnemonicParsing="false" onAction="#saveAction" text="保存对局" />
+      <Button fx:id="replayBtn" layoutX="729.0" layoutY="328.0" mnemonicParsing="false" onAction="#replayAction" text="复盘" />
+      <TextField fx:id="winText" layoutX="699.0" layoutY="191.0" prefHeight="25.0" prefWidth="100.0" />
+      <Label layoutX="735.0" layoutY="51.0" text="用户" />
+      <TextField fx:id="userText" layoutX="699.0" layoutY="78.0" prefHeight="25.0" prefWidth="100.0" />
+    </children>
+</AnchorPane>

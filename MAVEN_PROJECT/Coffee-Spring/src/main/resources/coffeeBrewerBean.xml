@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="coffeeBrewer1" class="model.impl.CoffeeBrewer">
+        <constructor-arg name="code" value="${brewerCode1}"/>
+        <constructor-arg name="description" value="${brewerDescription1}"/>
+        <constructor-arg name="price" value="${brewerPrice1}"/>
+        <constructor-arg name="number" value="${brewerNumber1}"/>
+        <constructor-arg name="brewerModel" value="${brewerModel1}"/>
+        <constructor-arg name="waterSupply" value="${waterSupply1}"/>
+        <constructor-arg name="cupsNumbers" value="${cupsNumbers1}"/>
+    </bean>
+
+    <bean id="coffeeBrewer2" class="model.impl.CoffeeBrewer">
+        <constructor-arg name="code" value="${brewerCode2}"/>
+        <constructor-arg name="description" value="${brewerDescription2}"/>
+        <constructor-arg name="price" value="${brewerPrice2}"/>
+        <constructor-arg name="number" value="${brewerNumber2}"/>
+        <constructor-arg name="brewerModel" value="${brewerModel2}"/>
+        <constructor-arg name="waterSupply" value="${waterSupply2}"/>
+        <constructor-arg name="cupsNumbers" value="${cupsNumbers2}"/>
+    </bean>
+
+    <bean id="coffeeBrewer3" class="model.impl.CoffeeBrewer">
+        <constructor-arg name="code" value="${brewerCode3}"/>
+        <constructor-arg name="description" value="${brewerDescription3}"/>
+        <constructor-arg name="price" value="${brewerPrice3}"/>
+        <constructor-arg name="number" value="${brewerNumber3}"/>
+        <constructor-arg name="brewerModel" value="${brewerModel3}"/>
+        <constructor-arg name="waterSupply" value="${waterSupply3}"/>
+        <constructor-arg name="cupsNumbers" value="${cupsNumbers3}"/>
+    </bean>
+
+    <bean id="coffeeBrewer4" class="model.impl.CoffeeBrewer">
+        <constructor-arg name="code" value="${brewerCode4}"/>
+        <constructor-arg name="description" value="${brewerDescription4}"/>
+        <constructor-arg name="price" value="${brewerPrice4}"/>
+        <constructor-arg name="number" value="${brewerNumber4}"/>
+        <constructor-arg name="brewerModel" value="${brewerModel4}"/>
+        <constructor-arg name="waterSupply" value="${waterSupply4}"/>
+        <constructor-arg name="cupsNumbers" value="${cupsNumbers4}"/>
+    </bean>
+
+    <bean id="coffeeBrewer5" class="model.impl.CoffeeBrewer">
+        <constructor-arg name="code" value="${brewerCode5}"/>
+        <constructor-arg name="description" value="${brewerDescription5}"/>
+        <constructor-arg name="price" value="${brewerPrice5}"/>
+        <constructor-arg name="number" value="${brewerNumber5}"/>
+        <constructor-arg name="brewerModel" value="${brewerModel5}"/>
+        <constructor-arg name="waterSupply" value="${waterSupply5}"/>
+        <constructor-arg name="cupsNumbers" value="${cupsNumbers5}"/>
+    </bean>
+</beans>

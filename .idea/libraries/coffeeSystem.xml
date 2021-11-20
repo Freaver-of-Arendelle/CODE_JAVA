@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="coffeeSystem">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/CODE/META-INF/coffeeSystem.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

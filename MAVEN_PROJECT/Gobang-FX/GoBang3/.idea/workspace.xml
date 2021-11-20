@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a253fbf-0283-4ba2-9f78-e38c7ae13692" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../CoffeeNew/src/model/bean/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CoffeeNew/src/model/bean/CoffeeAccessory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CoffeeNew/src/model/bean/CoffeeBrewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CoffeeNew/src/model/bean/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CoffeeNew/src/model/dao/impl/IOObjectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CoffeeNew/src/model/service/impl/CoffeeSerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../newCode/NursingFinally/src/libs/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../newCode/NursingFinally/src/libs/fastjson-1.2.76.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../newCode/NursingFinally/src/libs/hutool-all-5.7.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../newCode/NursingFinally/src/libs/junit-4.13.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CoffeeNew/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CoffeeNew/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CoffeeNew/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CoffeeNew/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CoffeeNew/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CoffeeNew/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CoffeeNew/src/demo/Usr.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CoffeeNew/src/demo/Usr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CoffeeNew/src/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CoffeeNew/src/model/impl/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CoffeeNew/src/model/impl/CoffeeAccessory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CoffeeNew/src/model/impl/CoffeeBrewer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CoffeeNew/src/ser/impl/CoffeeSerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CoffeeSpring/src/view/Usr.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CoffeeSpring/src/view/Usr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab/src/HTMLSalesFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab/src/PlainTextSalesFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab/src/SalesFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab/src/XMLSalesFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab1/src/GourmetCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homework/CoffeeLab1/src/GourmetCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab1/src/HTMLSalesFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homework/CoffeeLab1/src/HTMLSalesFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab1/src/PlainTextSalesFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homework/CoffeeLab1/src/PlainTextSalesFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab1/src/SalesFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homework/CoffeeLab1/src/SalesFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab1/src/XMLSalesFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homework/CoffeeLab1/src/XMLSalesFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab2/catalog.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab2/empty.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab2/src/FileCatalogLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homework/CoffeeLab2/src/FileCatalogLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab2/src/GourmetCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homework/CoffeeLab2/src/GourmetCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab2/src/TestFileCatalogLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homework/CoffeeLab2/src/TestFileCatalogLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab2/src/catalog.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/CoffeeLab2/src/empty.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/Lab2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/Lab2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/Lab2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homework/Lab2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/src/main/java/cList/CoffeeAccessoryList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/src/main/java/cList/CoffeeBrewerList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/src/main/java/cList/CoffeeList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/src/main/java/cList/ProductList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/src/main/java/mod/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/src/main/java/mod/CoffeeAccessory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/src/main/java/mod/CoffeeBrewer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/src/main/java/mod/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/src/main/java/ser/Sales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/src/main/java/ser/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/src/main/java/ui/Usr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/target/classes/cList/CoffeeAccessoryList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/target/classes/cList/CoffeeBrewerList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/target/classes/cList/CoffeeList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/target/classes/cList/ProductList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/target/classes/mod/Coffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/target/classes/mod/CoffeeAccessory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/target/classes/mod/CoffeeBrewer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/target/classes/mod/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/target/classes/ser/Sales.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/target/classes/ser/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Coffee-Maven/target/classes/ui/Usr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring-learning/itheima_spring_ioc/target/classes/com/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spring-learning/itheima_spring_ioc/target/classes/com/itheima/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring-learning/itheima_spring_ioc/target/classes/com/itheima/demo/UserDaoDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spring-learning/itheima_spring_ioc/target/classes/com/itheima/demo/UserDaoDemo.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1zS7JT8kYAiacko6awHirWy4dOo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="LoginUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoginUI" />
+      <module name="GoBang3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LoginUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a253fbf-0283-4ba2-9f78-e38c7ae13692" name="Changes" comment="" />
+      <created>1634129564966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634129564966</updated>
+      <workItem from="1634129566342" duration="808000" />
+      <workItem from="1634136613815" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

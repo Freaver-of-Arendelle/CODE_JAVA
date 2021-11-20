@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="frame" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.goBangFx.view.controller.LoginController">
+   <children>
+      <Button id="loginBtn" fx:id="loginBtn" layoutX="252.0" layoutY="238.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="52.0" text="登录" />
+      <TextField id="userText" fx:id="userText" layoutX="246.0" layoutY="167.0" />
+      <Label layoutX="194.0" layoutY="171.0" prefHeight="17.0" prefWidth="52.0" text="用户名：" />
+      <Label layoutX="194.0" layoutY="200.0" prefHeight="17.0" prefWidth="52.0" text="密码：" />
+      <PasswordField id="pwText" fx:id="pwText" layoutX="246.0" layoutY="196.0" />
+      <Label alignment="CENTER" layoutX="221.0" layoutY="70.0" prefHeight="48.0" prefWidth="159.0" text="五子棋小游戏" textFill="#1f7290" textOverrun="CLIP">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button id="registerBtn" fx:id="registerBtn" layoutX="331.0" layoutY="238.0" mnemonicParsing="false" onAction="#register" prefHeight="25.0" prefWidth="52.0" text="注册" />
+   </children>
+</AnchorPane>

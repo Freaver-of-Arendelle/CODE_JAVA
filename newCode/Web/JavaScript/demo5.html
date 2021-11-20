@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        p {
+            text-align: center;
+        }
+        span {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<p><span id="time">5</span>秒后自动跳转</p>
+<script>
+    let i = 5;
+
+    let time = document.getElementById("time");
+
+    function f() {
+        time.innerHTML = --i;
+        if (i <= 0) {
+            /**
+             * 下面两种都行
+             */
+            // location.href = "https://cn.bing.com/";
+            location.replace("https://cn.bing.com/");
+        }
+
+    }
+
+    setInterval(f, 1000);
+
+
+
+
+</script>
+</body>
+</html>

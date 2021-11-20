@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="coffee1" class="model.impl.Coffee">
+        <constructor-arg name="code" value="${code1}"/>
+        <constructor-arg name="description" value="${description1}"/>
+        <constructor-arg name="price" value="${price1}"/>
+        <constructor-arg name="number" value="${number1}"/>
+        <constructor-arg name="originCountry" value="${originCountry1}"/>
+        <constructor-arg name="roast" value="${roast1}"/>
+        <constructor-arg name="flavor" value="${flavor1}"/>
+        <constructor-arg name="aroma" value="${aroma1}"/>
+        <constructor-arg name="acidity" value="${acidity1}"/>
+        <constructor-arg name="body" value="${body1}"/>
+    </bean>
+
+    <bean id="coffee2" class="model.impl.Coffee">
+        <constructor-arg name="code" value="${code2}"/>
+        <constructor-arg name="description" value="${description2}"/>
+        <constructor-arg name="price" value="${price2}"/>
+        <constructor-arg name="number" value="${number2}"/>
+        <constructor-arg name="originCountry" value="${originCountry2}"/>
+        <constructor-arg name="roast" value="${roast2}"/>
+        <constructor-arg name="flavor" value="${flavor2}"/>
+        <constructor-arg name="aroma" value="${aroma2}"/>
+        <constructor-arg name="acidity" value="${acidity2}"/>
+        <constructor-arg name="body" value="${body2}"/>
+    </bean>
+
+    <bean id="coffee3" class="model.impl.Coffee">
+        <constructor-arg name="code" value="${code3}"/>
+        <constructor-arg name="description" value="${description3}"/>
+        <constructor-arg name="price" value="${price3}"/>
+        <constructor-arg name="number" value="${number3}"/>
+        <constructor-arg name="originCountry" value="${originCountry3}"/>
+        <constructor-arg name="roast" value="${roast3}"/>
+        <constructor-arg name="flavor" value="${flavor3}"/>
+        <constructor-arg name="aroma" value="${aroma3}"/>
+        <constructor-arg name="acidity" value="${acidity3}"/>
+        <constructor-arg name="body" value="${body3}"/>
+    </bean>
+
+    <bean id="coffee4" class="model.impl.Coffee">
+        <constructor-arg name="code" value="${code4}"/>
+        <constructor-arg name="description" value="${description4}"/>
+        <constructor-arg name="price" value="${price4}"/>
+        <constructor-arg name="number" value="${number4}"/>
+        <constructor-arg name="originCountry" value="${originCountry4}"/>
+        <constructor-arg name="roast" value="${roast4}"/>
+        <constructor-arg name="flavor" value="${flavor4}"/>
+        <constructor-arg name="aroma" value="${aroma4}"/>
+        <constructor-arg name="acidity" value="${acidity4}"/>
+        <constructor-arg name="body" value="${body4}"/>
+    </bean>
+</beans>

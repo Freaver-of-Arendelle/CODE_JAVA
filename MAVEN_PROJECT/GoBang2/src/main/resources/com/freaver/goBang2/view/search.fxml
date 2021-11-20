@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.freaver.goBang2.view.controller.SearchController">
+   <children>
+      <Label layoutX="57.0" layoutY="32.0" text="黑方棋手：" />
+      <Label layoutX="312.0" layoutY="33.0" text="白方棋手：" />
+      <TextField fx:id="blackName" layoutX="141.0" layoutY="28.0" />
+      <TextField fx:id="whiteName" layoutX="411.0" layoutY="28.0" />
+      <Label layoutX="57.0" layoutY="69.0" text="胜方：" />
+      <RadioButton layoutX="141.0" layoutY="63.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="58.0" text="黑" toggleGroup="$win">
+         <toggleGroup>
+            <ToggleGroup fx:id="win" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="233.0" layoutY="65.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="47.0" text="白" toggleGroup="$win" />
+    <Button fx:id="searchBtn" layoutX="441.0" layoutY="127.0" mnemonicParsing="false" onAction="#searchAction" text="查找" />
+      <Button fx:id="replayBtn" layoutX="441.0" layoutY="185.0" mnemonicParsing="false" onAction="#replayAction" text="回放" />
+      <Button fx:id="reviewBtn" layoutX="441.0" layoutY="241.0" mnemonicParsing="false" onAction="#reviewAction" text="浏览" />
+      <Button fx:id="exitBtn" layoutX="441.0" layoutY="298.0" mnemonicParsing="false" onAction="#exitAction" text="退出" />
+      <TableView fx:id="table" layoutX="91.0" layoutY="150.0" prefHeight="200.0" prefWidth="225.0">
+        <columns>
+          <TableColumn fx:id="blackColumn" prefWidth="75.0" text="黑方" />
+          <TableColumn fx:id="whiteColumn" prefWidth="75.0" text="白方" />
+            <TableColumn fx:id="winColumn" prefWidth="75.0" text="胜方" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

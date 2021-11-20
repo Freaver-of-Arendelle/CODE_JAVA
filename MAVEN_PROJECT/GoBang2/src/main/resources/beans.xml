@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:beans.properties"/>
+<!--    <bean id="jsonService" class="com.freaver.goBang2.model.service.JSONService">-->
+<!--        <constructor-arg type="java.lang.String" name="path" value="k"></constructor-arg>-->
+<!--        &lt;!&ndash; collaborators and configuration for this bean go here &ndash;&gt;-->
+<!--    </bean>-->
+
+    <bean id="userSecureController" class="com.freaver.goBang2.controller.UserSecureController" init-method="init" scope="singleton">
+       <constructor-arg value="${userSecurePath}"></constructor-arg>
+    </bean>
+
+
+
+    <bean id="boardController" class="com.freaver.goBang2.controller.BoardController" scope="singleton">
+    </bean>
+
+<!--    <bean id="boardSerializationService" class="com.freaver.goBang2.model.service.SerializationService" scope="singleton">-->
+<!--        <constructor-arg value="${boardPath}#{boardController.userName}/board.dat"/>-->
+<!--    </bean>-->
+<!--&lt;!&ndash;    <bean id="userSecureControler" class="com.freaver.goBang2.controller.UserSecureController"></bean>&ndash;&gt;-->
+
+
+<!--    <bean id="serializationService" class="com.freaver.goBang2.model.service.SerializationService" scope="singleton" >-->
+<!--        <constructor-arg value="${userSecurePath}"/>-->
+<!--    </bean>-->
+
+<!--    <bean name="path" class="com.freaver.goBang2.controller.UserSecureController.path"></bean>-->
+
+    <!-- more bean definitions go here -->
+
+</beans>

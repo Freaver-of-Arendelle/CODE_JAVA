@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10f8e79c-5b0d-47a8-b97a-04b603add71d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CoffeeNew/src/dao/impl/IOObjectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CoffeeNew/src/model/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CoffeeNew/src/model/CoffeeAccessory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CoffeeNew/src/model/CoffeeBrewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CoffeeNew/src/service/impl/CoffeeSerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoffeeNew/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CoffeeNew/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoffeeNew/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CoffeeNew/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoffeeNew/src/demo/Usr.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoffeeNew/src/demo/Usr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoffeeNew/src/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoffeeNew/src/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoffeeNew/src/model/impl/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoffeeNew/src/model/impl/CoffeeAccessory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoffeeNew/src/model/impl/CoffeeBrewer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoffeeNew/src/ser/impl/CoffeeSerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Usr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Usr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab/src/HTMLSalesFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab/src/PlainTextSalesFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab/src/SalesFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab/src/XMLSalesFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab1/src/GourmetCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/CoffeeLab1/src/GourmetCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab1/src/HTMLSalesFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/CoffeeLab1/src/HTMLSalesFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab1/src/PlainTextSalesFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/CoffeeLab1/src/PlainTextSalesFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab1/src/SalesFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/CoffeeLab1/src/SalesFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab1/src/XMLSalesFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/CoffeeLab1/src/XMLSalesFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab2/src/FileCatalogLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/CoffeeLab2/src/FileCatalogLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab2/src/GourmetCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/CoffeeLab2/src/GourmetCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/CoffeeLab2/src/TestFileCatalogLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/CoffeeLab2/src/TestFileCatalogLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Lab2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Lab2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Lab2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework/Lab2/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Tools\Maven\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="D:\Tools\Maven\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Tools\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qED1cd8UtHTJzf29f4CC5phh1c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MAVEN_PROJECT/Coffee-Spring-Maven" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODE\CODE_JAVA\CoffeeSpring\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="view" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Usr" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="15" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="view.Usr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10f8e79c-5b0d-47a8-b97a-04b603add71d" name="Default Changelist" comment="" />
+      <created>1616635641325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616635641325</updated>
+      <workItem from="1616635642742" duration="1440000" />
+      <workItem from="1616637258292" duration="23564000" />
+      <workItem from="1616911840065" duration="164000" />
+      <workItem from="1616912049297" duration="15000" />
+      <workItem from="1618024850797" duration="1492000" />
+      <workItem from="1618581407886" duration="501000" />
+      <workItem from="1618582984537" duration="214000" />
+      <workItem from="1618583408035" duration="256000" />
+      <workItem from="1618583684702" duration="1764000" />
+      <workItem from="1618585706151" duration="403000" />
+      <workItem from="1618586121656" duration="39000" />
+      <workItem from="1618586169089" duration="57000" />
+      <workItem from="1618832534597" duration="151000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

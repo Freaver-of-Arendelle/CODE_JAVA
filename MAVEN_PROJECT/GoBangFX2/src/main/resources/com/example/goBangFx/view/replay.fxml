@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.goBangFx.view.controller.ReplayController">
+    <children>
+        <TableView fx:id="table" prefHeight="375.0" prefWidth="600.0">
+            <columns>
+                <TableColumn fx:id="timeColumn" prefWidth="300.0" resizable="false" text="时间" />
+                <TableColumn fx:id="winnerColumn" prefWidth="300.0" resizable="false" text="获胜方" />
+            </columns>
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+        </TableView>
+      <Button fx:id="replayBtn" layoutX="260.0" layoutY="374.0" mnemonicParsing="false" onAction="#replayAction" text="回放" />
+    </children>
+</AnchorPane>

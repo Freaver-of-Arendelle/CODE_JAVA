@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="440.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.freaver.goBang2.view.controller.ReplayListController">
+    <children>
+        <TableView fx:id="table" layoutX="6.0" layoutY="38.0" prefHeight="356.0" prefWidth="600.0">
+            <columns>
+                <TableColumn fx:id="blackColumn" prefWidth="200.0" resizable="false" text="黑方" />
+                <TableColumn fx:id="whiteColumn" prefWidth="200.0" resizable="false" text="白方" />
+            <TableColumn fx:id="winColumn" prefWidth="200.0" text="对局结果" />
+            </columns>
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+        </TableView>
+      <Button fx:id="replayBtn" layoutX="107.0" layoutY="401.0" mnemonicParsing="false" onAction="#replayAction" text="对局回放" />
+      <Button fx:id="reviewBtn" layoutX="271.0" layoutY="401.0" mnemonicParsing="false" onAction="#reviewAction" text="棋谱查看" />
+      <Button fx:id="continueBtn" layoutX="464.0" layoutY="401.0" mnemonicParsing="false" onAction="#continueAction" text="继续对局" />
+      <Button fx:id="returnBtn" layoutX="528.0" layoutY="14.0" mnemonicParsing="false" onAction="#returnAction" text="返回" />
+    </children>
+</AnchorPane>

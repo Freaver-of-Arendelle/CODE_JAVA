@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="frame" prefHeight="442.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.goBangFx.view.controller.RegisterController">
+   <children>
+      <TextField id="userText" fx:id="userText" layoutX="300.0" layoutY="153.0" />
+      <PasswordField id="pwText" fx:id="pwText" layoutX="300.0" layoutY="213.0" />
+      <Label layoutX="221.0" layoutY="153.0" prefHeight="26.0" prefWidth="65.0" text="用户名：" />
+      <Label layoutX="221.0" layoutY="213.0" prefHeight="26.0" prefWidth="46.0" text="密码：" />
+      <Button fx:id="registerBtn" layoutX="300.0" layoutY="285.0" mnemonicParsing="false" onAction="#Register" text="注册" />
+   </children>
+</AnchorPane>

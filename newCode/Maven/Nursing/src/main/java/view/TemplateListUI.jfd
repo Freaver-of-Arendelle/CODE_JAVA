@@ -1,0 +1,155 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundleName": "templateList"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"resizable": false
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {space :p:33:p, comp viewBtn:::p::p, space :p:40:p, comp delBTn:::p::p, space :::x, comp newBtn:::p:84:p}, comp scrollPane1:::p:694:p, seq l {space :::p, comp selCB:::p:118:p}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp selCB:::p::p, space ::40:x, par b {comp newBtn::b:p::p, comp viewBtn::b:p::p, comp delBTn::b:p::p}, space :p:25:p, comp scrollPane1:::p:227:p}}"
+				} ) {
+					name: "contentPanel"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table1"
+							"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector, new java.util.Vector {
+								add( " " )
+								add( "ID" )
+								add( "题目" )
+								add( "类型" )
+							}, new java.util.Vector {
+								add( class java.lang.Boolean )
+								add( class java.lang.Integer )
+								add( class java.lang.String )
+								add( class java.lang.String )
+							}, new java.util.Vector {
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+							}, new java.util.Vector {
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+							} )
+							"selectionForeground": new java.awt.Color( 242, 242, 242, 255 )
+							"background": new java.awt.Color( 242, 242, 242, 255 )
+							"gridColor": new java.awt.Color( 242, 242, 242, 255 )
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "viewBtn"
+						"text": new FormMessage( null, "viewBtn.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "viewBtnActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "delBTn"
+						"text": new FormMessage( null, "delBTn.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "delBTnActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "newBtn"
+						"text": new FormMessage( null, "newBtn.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "newBtnActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "selCB"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "selComboBoxActionPerformed", true ) )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :p:122:p, comp saveButton:::p:80:p, space ::270:x, comp cancelButton:::p:80:p, space :p:142:p}}"
+					"$verticalGroup": "par l {seq {space :::p, par b {comp cancelButton::b:p::p, comp saveButton::b:p::p}, space :::p}}"
+				} ) {
+					name: "buttonBar"
+					"border": new javax.swing.border.EmptyBorder( 12, 0, 0, 0 )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "saveButton"
+						"text": new FormMessage( null, "saveButton.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "saveButtonActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "cancelButton"
+						"text": new FormMessage( null, "cancelButton.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "cancelButtonActionPerformed", true ) )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "South"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 20, 0 )
+			"size": new java.awt.Dimension( 720, 450 )
+		} )
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:57:p, comp saveBtn:::p::p, space ::151:x, comp cancelBtn2:::p::p, space :p:77:p}, seq {space :::p, par l {comp scrollPane2::l::421:x, seq l {comp delBtn2:::p::p, space :::p, comp nameLabel:::p:59:p, space ::204:x, comp proBtn:::p::p}}, space :::p}}"
+			"$verticalGroup": "par l {seq l {par l {seq {space :p:19:p, comp nameLabel:::p:30:p, space ::36:x}, seq t {space ::43:x, par b {comp proBtn::b:p::p, comp delBtn2::b:p::p}, space s:::p}}, comp scrollPane2:::p:191:p, space s:::p, par b {comp cancelBtn2::b:p::p, comp saveBtn::b:p::p}}}"
+		} ) {
+			name: "frame1"
+			"resizable": false
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "delBtn2"
+				"text": new FormMessage( null, "delBtn2.text" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "delBtn2ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "cancelBtn2"
+				"text": new FormMessage( null, "cancelBtn2.text" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "cancelBtn2ActionPerformed", true ) )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane2"
+				add( new FormComponent( "javax.swing.JTable" ) {
+					name: "table2"
+					"background": new java.awt.Color( 242, 242, 242, 255 )
+					"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector, new java.util.Vector {
+						add( " " )
+						add( "ID" )
+						add( "题目" )
+					}, new java.util.Vector {
+						add( class java.lang.Boolean )
+						add( class java.lang.Integer )
+						add( class java.lang.String )
+					}, new java.util.Vector {
+						add( null )
+						add( null )
+						add( null )
+					}, new java.util.Vector {
+						add( null )
+						add( null )
+						add( null )
+					} )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "nameLabel"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "proBtn"
+				"text": new FormMessage( null, "proBtn.text" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "proBtnActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "saveBtn"
+				"text": new FormMessage( null, "saveBtn.text" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "saveBtnActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 60, 455 )
+			"size": new java.awt.Dimension( 435, 350 )
+		} )
+	}
+}

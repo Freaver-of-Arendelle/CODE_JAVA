@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        td {
+            border: 1px solid;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        document.write("<tableborder='1'align='center'frame='void'>")
+        for (vari = 1; i < 10; i++) {
+            document.write("<tr>");
+
+            for (letj = 1; j <= i; j++) {
+                document.write("<td>")
+                document.writeln(i + '*' + j + "=" + i * j);
+                document.write("</td>")
+            }
+            document.write("<br>");
+            document.write("<tr>");
+        }
+        document.write("</table>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

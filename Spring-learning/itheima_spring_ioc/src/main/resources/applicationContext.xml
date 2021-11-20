@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--    <bean id="UserDao" class="com.itheima.dao.impl.UserDaoImpl"></bean>-->
+    <!--    <bean id="UserService" class="com.itheima.service.impl.UserServiceImpl" >-->
+    <!--        <constructor-arg ref="UserDao"></constructor-arg>-->
+    <!--    </bean>-->
+
+    <!--    <bean id="UserService" class="com.itheima.service.impl.UserServiceImpl" >-->
+    <!--        <property name="userDao" ref="UserDao"></property>-->
+    <!--    </bean>-->
+
+    <context:property-placeholder location="classpath:bean.properties"/>
+    <bean id="UserModel" class="com.itheima.demo.UserModel">
+        <constructor-arg name="name" value="${test}"></constructor-arg>
+        <constructor-arg name="age" value="1"></constructor-arg>
+        <constructor-arg name="stringList">
+            <list>
+                <value>Spring1</value>
+                <value>Spring2</value>
+                <value>Spring3</value>
+            </list>
+        </constructor-arg>
+        <constructor-arg name="map">
+            <map>
+                <entry key="ioc1" value-ref="UserDao"></entry>
+                <entry key="ioc2" value-ref="UserDao"></entry>
+                <entry key="ioc3" value-ref="UserDao"></entry>
+            </map>
+        </constructor-arg>
+        <constructor-arg name="properties">
+            <props>
+                <prop key="test1">1</prop>
+                <prop key="test2">2</prop>
+                <prop key="test3">3</prop>
+            </props>
+        </constructor-arg>
+
+        <!--        -->
+        <!--        <property name="name" value="hhh" ></property>-->
+        <!--        <property name="age" value="111" ></property>-->
+        <!--        <property name="stringList">-->
+        <!--            <list>-->
+        <!--                <value>Spring1</value>-->
+        <!--                <value>Spring2</value>-->
+        <!--                <value>Spring3</value>-->
+        <!--            </list>-->
+        <!--        </property>-->
+
+        <!--        <property name="map">-->
+        <!--            <map>-->
+        <!--                <entry key="ioc1" value-ref="UserDao"></entry>-->
+        <!--                <entry key="ioc2" value-ref="UserDao"></entry>-->
+        <!--                <entry key="ioc3" value-ref="UserDao"></entry>-->
+        <!--            </map>-->
+        <!--        </property>-->
+
+        <!--        <property name="properties">-->
+        <!--            <props>-->
+        <!--                <prop key="test1">1</prop>-->
+        <!--                <prop key="test2">2</prop>-->
+        <!--                <prop key="test3">3</prop>-->
+        <!--            </props>-->
+        <!--        </property>-->
+    </bean>
+
+    <!--    配置组件扫描-->
+    <context:component-scan base-package="com.itheima"/>
+
+    <!--    <import resource="applicationContext-product.xml"></import>-->
+</beans>

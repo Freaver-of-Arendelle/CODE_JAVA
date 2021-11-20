@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <context:property-placeholder location="classpath:properties/CoffeeAccessory.properties, classpath:properties/CoffeeBrewer.properties,, classpath:properties/Coffee.properties"/>
+
+    <import resource="coffeeAccessoryBean.xml"/>
+    <import resource="coffeeBrewerBean.xml"/>
+    <import resource="coffeeBean.xml"/>
+
+    <bean id="diskIO" class="dao.impl.DiskIOImpl"/>
+
+    <bean id="coffeeSer" class="service.impl.CoffeeSerImpl">
+        <constructor-arg name="diskIO" ref="diskIO"/>
+        <constructor-arg name="productIndex">
+            <map>
+                <entry key="${accessoryCode1}" value="0"/>
+                <entry key="${accessoryCode2}" value="1"/>
+                <entry key="${accessoryCode3}" value="2"/>
+                <entry key="${accessoryCode4}" value="3"/>
+                <entry key="${accessoryCode5}" value="4"/>
+                <entry key="${brewerCode1}" value="5"/>
+                <entry key="${brewerCode2}" value="6"/>
+                <entry key="${brewerCode3}" value="7"/>
+                <entry key="${brewerCode4}" value="8"/>
+                <entry key="${brewerCode5}" value="9"/>
+                <entry key="${code1}" value="10"/>
+                <entry key="${code2}" value="11"/>
+                <entry key="${code3}" value="12"/>
+                <entry key="${code4}" value="13"/>
+            </map>
+        </constructor-arg>
+
+
+        <constructor-arg name="productList">
+            <list>
+                <ref bean="coffeeAccessory1"/>
+                <ref bean="coffeeAccessory2"/>
+                <ref bean="coffeeAccessory3"/>
+                <ref bean="coffeeAccessory4"/>
+                <ref bean="coffeeAccessory5"/>
+                <ref bean="coffeeBrewer1"/>
+                <ref bean="coffeeBrewer2"/>
+                <ref bean="coffeeBrewer3"/>
+                <ref bean="coffeeBrewer4"/>
+                <ref bean="coffeeBrewer5"/>
+                <ref bean="coffee1"/>
+                <ref bean="coffee2"/>
+                <ref bean="coffee3"/>
+                <ref bean="coffee4"/>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>

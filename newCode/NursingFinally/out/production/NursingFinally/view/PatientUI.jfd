@@ -1,0 +1,320 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundleName": "patient"
+	"i18n.bundlePackage": "resources"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"resizable": false
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": &EmptyBorder0 new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par t {seq {par l {comp nameField:::p:99:p, seq l {space :::p, comp delBtn:::p::p}}, par l {seq {space :::p, comp searchBtn:::p::p, space :::x}, seq t {space ::436:x, comp temBtn:::p::p, space s:::p}}, par l {seq {space :6:6:p, comp addBtn:::p::p}, comp modifyBtn:::p::p}, space :::p}, seq l {space :::p, comp scrollPane1::::778:x}}"
+					"$verticalGroup": "par l {seq t {par l {seq {space :p:21:p, par b {comp searchBtn::b:p::p, comp nameField::b:p::p}, space ::18:x}, seq t {space ::39:x, comp modifyBtn:::p::p}}, space :p:8:p, par b {comp addBtn::b:p::p, comp temBtn::b:p::p, comp delBtn::b:p::p}, space :p:12:p, comp scrollPane1:::p:200:p, space :::p}}"
+				} ) {
+					name: "contentPanel"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table1"
+							"model": new com.jformdesigner.model.SwingTableModel( new java.util.Vector, new java.util.Vector {
+								add( " " )
+								add( "姓名" )
+								add( "出生日期" )
+								add( "性别" )
+								add( "身份证号" )
+								add( "联系电话" )
+								add( "紧急联系人" )
+								add( "紧急联系人电话" )
+								add( null )
+							}, new java.util.Vector {
+								add( class java.lang.Boolean )
+								add( class java.lang.String )
+								add( class java.util.Date )
+								add( class java.lang.String )
+								add( class java.lang.String )
+								add( class java.lang.String )
+								add( class java.lang.String )
+								add( class java.lang.String )
+								add( class java.lang.Object )
+							}, new java.util.Vector {
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+							}, new java.util.Vector {
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+								add( null )
+							} )
+							"gridColor": new java.awt.Color( 242, 242, 242, 255 )
+							"selectionForeground": new java.awt.Color( 242, 242, 242, 255 )
+							"background": new java.awt.Color( 242, 242, 242, 255 )
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "searchBtn"
+						"text": new FormMessage( null, "searchBtn.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "searchBtnActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "nameField"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "delBtn"
+						"text": new FormMessage( null, "delBtn.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "delBtnActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "addBtn"
+						"text": new FormMessage( null, "addBtn.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "addBtnActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "temBtn"
+						"text": new FormMessage( null, "temBtn.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "temBtnActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "modifyBtn"
+						"text": new FormMessage( null, "modifyBtn.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "modifyBtnActionPerformed", true ) )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :p:122:p, comp saveBtn:::p:131:p, space ::262:x, comp returnBtn:::p:144:p, space :p:125:p}}"
+					"$verticalGroup": "par l {par b {comp returnBtn::b:p::p, comp saveBtn::b:p::p}}"
+				} ) {
+					name: "buttonBar"
+					"border": &EmptyBorder1 new javax.swing.border.EmptyBorder( 12, 0, 0, 0 )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "saveBtn"
+						"text": new FormMessage( null, "saveBtn.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "saveBtnActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "returnBtn"
+						"text": new FormMessage( null, "returnBtn.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "returnBtnActionPerformed", true ) )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "South"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 810, 405 )
+		} )
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "frame2"
+			"resizable": false
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane2"
+				"border": #EmptyBorder0
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par t {seq l {space :::p, par l {comp label7::t:::x, seq t {space :0:7:x, par l {comp label3::t:p::p, comp label4::t:p::p, comp label2::t:p:84:p, comp label1::t:p:72:p, comp label5::t:p::p, comp label6::t:p:119:p}}}, space u:::p, par l {comp idField2::l::176:x, comp telField2::l::176:x, comp birFiled2::l:::x, comp genderField2::l::176:x, comp nameField2::t::176:x, comp emeFiled2::l::176:x, comp emeTelField2::l::176:x}, space :p:169:p}}"
+					"$verticalGroup": "par l {seq l {space :p:12:p, par l:::p {comp nameField2::::25:x, comp label1::::25:x}, space :0:1:x, par l {seq {space :p:7:p, comp birFiled2:::p:25:p}, comp label2::t:p:25:p}, space u:::p, par l {comp genderField2:::p:25:p, comp label7::l:p:25:p}, space :p:7:p, par b {comp idField2::b:p:25:p, comp label3::b:p:25:p}, space :::p, par l {comp telField2:::p:25:p, comp label4::l:p:25:p}, space :::p, par b {comp label5::b:p:25:p, comp emeFiled2::b:p:25:p}, space u:::p, par b {comp label6::b:p:25:p, comp emeTelField2::b:p:25:p}, space ::45:x}}"
+				} ) {
+					name: "contentPanel2"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": new FormMessage( null, "label1.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": new FormMessage( null, "label2.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": new FormMessage( null, "label3.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": new FormMessage( null, "label4.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": new FormMessage( null, "label5.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": new FormMessage( null, "label6.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "nameField2"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "birFiled2"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "idField2"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "telField2"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "emeFiled2"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "emeTelField2"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": new FormMessage( null, "label7.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "genderField2"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space ::75:x, comp saveBtn2:::p:131:p, space :p:43:p, comp returnBtn2:::p:144:p, space :p:96:p}}"
+					"$verticalGroup": "par l {par b {comp saveBtn2::b:p::p, comp returnBtn2::b:p::p}}"
+				} ) {
+					name: "buttonBar2"
+					"border": #EmptyBorder1
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "saveBtn2"
+						"text": new FormMessage( null, "saveBtn2.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "saveBtn2ActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "returnBtn2"
+						"text": new FormMessage( null, "returnBtn2.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "returnBtn2ActionPerformed", true ) )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "South"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": &Dimension0 new java.awt.Dimension( 515, 375 )
+			"location": new java.awt.Point( 5, 430 )
+		} )
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "frame3"
+			"resizable": false
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane3"
+				"border": #EmptyBorder0
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par t {seq l {space :::p, par l {comp label14::t:::x, comp label9::t::126:x, comp label8::t::126:x, comp label10::t::126:x, comp label11::t::126:x, comp label12::::126:x, comp label13::::126:x}, space u:::p, par l {comp idField3::l::176:x, comp telField3::l::176:x, comp birFiled3::l:::x, comp genderField3::l::176:x, comp nameField3::t::176:x, comp emeFiled3::l::176:x, comp emeTelField3::l::176:x}, space :p:169:p}}"
+					"$verticalGroup": "par l {seq l {space :p:12:p, par l {comp nameField3:::p:25:p, comp label8:::::x}, space :7:8:x, par l {comp birFiled3::t:p:25:p, comp label9::t:p:25:p}, space u:::p, par l {comp genderField3:::p:25:p, comp label14::l:p:25:p}, space :p:7:p, par b {comp idField3::b:p:25:p, comp label10::b:p:25:p}, space :::p, par l {comp telField3:::p:25:p, comp label11:::p:25:p}, space :::p, par b {comp emeFiled3::b:p:25:p, comp label12::b:p:25:p}, space u:::p, par b {comp emeTelField3::b:p:25:p, comp label13::b:p:25:p}, space ::45:x}}"
+				} ) {
+					name: "contentPanel3"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label8"
+						"text": new FormMessage( null, "label8.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label9"
+						"text": new FormMessage( null, "label9.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label10"
+						"text": new FormMessage( null, "label10.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label11"
+						"text": new FormMessage( null, "label11.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label12"
+						"text": new FormMessage( null, "label12.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label13"
+						"text": new FormMessage( null, "label13.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "nameField3"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "birFiled3"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "idField3"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "telField3"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "emeFiled3"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "emeTelField3"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label14"
+						"text": new FormMessage( null, "label14.text" )
+						"componentOrientation": sfield java.awt.ComponentOrientation RIGHT_TO_LEFT
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "genderField3"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space ::75:x, comp saveBtn3:::p:131:p, space :p:43:p, comp returnBtn3:::p:144:p, space :p:96:p}}"
+					"$verticalGroup": "par l {par b {comp saveBtn3::b:p::p, comp returnBtn3::b:p::p}}"
+				} ) {
+					name: "buttonBar3"
+					"border": #EmptyBorder1
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "saveBtn3"
+						"text": new FormMessage( null, "saveBtn3.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "saveBtn3ActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "returnBtn3"
+						"text": new FormMessage( null, "returnBtn3.text" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "returnBtn3ActionPerformed", true ) )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "South"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": #Dimension0
+			"location": new java.awt.Point( 595, 475 )
+		} )
+	}
+}

@@ -1,0 +1,26 @@
+[{
+	"encrypt":"a24e60de5d35f6af7071ad2ce6902d8d",
+	"isAdministrator":false,
+	"key":"rRZHm2/ZtG1+fK5pAsu/8A==",
+	"username":"Arendelle"
+},{
+	"encrypt":"726adaa93c0f31356f5cacd5ed9a04f6",
+	"isAdministrator":false,
+	"key":"2wpV1Bt9hJjuOBwpDQem6g==",
+	"username":"oneNote"
+},{
+	"username":"Freaver",
+	"key":"wAUzaYSuo7H2YPSZs5cXbw==",
+	"encrypt":"1a687f991cef84fc737139f1576aad18",
+	"isAdministrator":true
+},{
+	"encrypt":"54760776e8a1b6e3a6180e06a5dae723",
+	"isAdministrator":true,
+	"key":"c0LxRIWAfzmxEDrjFybVaQ==",
+	"username":"Freaver"
+},{
+	"encrypt":"2d4feba54591b0ee03d49471a0adafc6",
+	"isAdministrator":false,
+	"key":"tXqCCaFTxjh8GXdKsz2A/w==",
+	"username":"JetBrains"
+}]

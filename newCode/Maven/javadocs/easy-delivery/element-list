@@ -1,0 +1,6 @@
+controller
+model.bean
+model.dao
+model.dao.impl
+model.service
+view

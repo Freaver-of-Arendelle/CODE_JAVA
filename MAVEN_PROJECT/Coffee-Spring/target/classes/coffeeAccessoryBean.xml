@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="coffeeAccessory1" class="model.impl.CoffeeAccessory">
+        <constructor-arg name="code" value="${accessoryCode1}"/>
+        <constructor-arg name="description" value="${accessoryDescription1}"/>
+        <constructor-arg name="price" value="${accessoryPrice1}"/>
+        <constructor-arg name="number" value="${accessoryNumber1}"/>
+    </bean>
+
+    <bean id="coffeeAccessory2" class="model.impl.CoffeeAccessory">
+        <constructor-arg name="code" value="${accessoryCode2}"/>
+        <constructor-arg name="description" value="${accessoryDescription2}"/>
+        <constructor-arg name="price" value="${accessoryPrice2}"/>
+        <constructor-arg name="number" value="${accessoryNumber2}"/>
+    </bean>
+
+    <bean id="coffeeAccessory3" class="model.impl.CoffeeAccessory">
+        <constructor-arg name="code" value="${accessoryCode3}"/>
+        <constructor-arg name="description" value="${accessoryDescription3}"/>
+        <constructor-arg name="price" value="${accessoryPrice3}"/>
+        <constructor-arg name="number" value="${accessoryNumber3}"/>
+    </bean>
+
+    <bean id="coffeeAccessory4" class="model.impl.CoffeeAccessory">
+        <constructor-arg name="code" value="${accessoryCode4}"/>
+        <constructor-arg name="description" value="${accessoryDescription4}"/>
+        <constructor-arg name="price" value="${accessoryPrice4}"/>
+        <constructor-arg name="number" value="${accessoryNumber4}"/>
+    </bean>
+
+    <bean id="coffeeAccessory5" class="model.impl.CoffeeAccessory">
+        <constructor-arg name="code" value="${accessoryCode5}"/>
+        <constructor-arg name="description" value="${accessoryDescription5}"/>
+        <constructor-arg name="price" value="${accessoryPrice5}"/>
+        <constructor-arg name="number" value="${accessoryNumber5}"/>
+    </bean>
+</beans>
